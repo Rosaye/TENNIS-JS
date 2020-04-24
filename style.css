@@ -73,7 +73,7 @@ h1 {
 }
 
 .nb{
-    margin-top: 115px;
+    margin-top: 80px;
 }
 
 #nb1 {
@@ -108,7 +108,7 @@ h1 {
     padding: 5px 8px;
     border-radius: 15px;
     cursor: pointer;
-    transition: box-shadow 200ms ease-in;
+    transition: box-shadow 100ms ease-in;
 }
 
 
@@ -125,7 +125,7 @@ h1 {
     border-radius: 15px;
     cursor: pointer;
     padding: 5px 11px;
-    transition: box-shadow 200ms ease-in;
+    transition: box-shadow 100ms ease-in;
 }
 
 .butt2:hover {
@@ -143,7 +143,7 @@ h1 {
     padding: 20px 10px;
     border-radius: 50px;
     cursor: pointer;
-    transition: box-shadow 200ms ease-in;
+    transition: box-shadow 100ms ease-in;
 }
 
 #reset:hover {
@@ -181,13 +181,14 @@ h1 {
     font-size: 20px;
     border: none;
     background-color: red;
-    transition: box-shadow 200ms ease-in;
+    transition: box-shadow 100ms ease-in;
 
 }
 
 .back1:hover {
     -webkit-box-shadow: 0px 0px 0px 5px rgba(0,0,0,0.7); 
     box-shadow: 0px 0px 0px 5px rgba(0,0,0,0.7);
+    cursor: pointer;
 }
 
 .valid1 {
@@ -199,15 +200,79 @@ h1 {
     font-size: 20px;
     border: none;
     background-color: green;
-    transition: box-shadow 200ms ease-in;
+    transition: box-shadow 100ms ease-in;
 }
 
 
 .valid1:hover {
     -webkit-box-shadow: 0px 0px 0px 5px rgba(0,0,0,0.7); 
     box-shadow: 0px 0px 0px 5px rgba(0,0,0,0.7);
+    cursor: pointer;
 }
 
+
+.TBLSCORE {
+    background-color: white;
+    margin-top: 50px;
+    border-collapse: collapse;
+    border-radius: 15px;
+    padding: 10px;
+    height: 50px;
+    width: 500px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+.TBLSCORE table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.TBLSCORE th {
+    width: 25%;
+}
+
+
+#result1 {
+    color: green;
+    border: none;
+    background-color: white;
+}
+
+#result2 {
+    color: red;
+    border: none;
+    background-color: white;
+}
+
+#score1 {
+    background-color: #9E9899;
+
+}
+#score2 {
+    background-color: #DCDCDC;
+    
+
+}
+
+.gris2, .gris1 {
+    border: 1px solid #4D4D4D;
+}
+
+
+#idj1 input {
+    background-color: #9E9899;
+    border: none;
+    text-align: center;
+}
+
+
+#idj2 input {
+    background-color: #DCDCDC;
+    border: none;
+    text-align: center;
+}
 
 
 

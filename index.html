@@ -14,58 +14,88 @@
     <h1>TENNIS GAME</h1>
 
 
-    <section class="container">
+    <section class="container"> <!-- Container du jeu entier -->
         
+
+        <!-- Première div du container -->
         <div class="col" id="col1">
-            <div><input type="text" style="border: none;" class="j" id="j1" value="" style="text-align: center;"></div>
-            <div><input type="number" style="border: none;" class="nb" id="nb1" value="" disabled></div>
+
+            <div><input type="text" style="border: none;" class="j" id="j1" value="" style="text-align: center;"></div> <!-- JOUEUR 1 -->
+            <div><input type="number" style="border: none;" class="nb" id="nb1" value="" disabled></div> <!-- POINTS ACTUELS -->
            
             <div id="BOUTTON1">
                 <div class="buttons">
-                    <button class="butt1">+1</button>
-                    <button class="butt2">P</button>
+                    <button class="butt1">+1</button> <!-- BOUTON GAGNÉ -->
+                    <button class="butt2">P</button> <!-- BOUTON PERDU -->
                 </div>
             </div>
 
             <div id="validation">
                 <div class="ch">
-                    <button class="valid1">validation</button>
+                    <button class="valid1">validation</button> <!-- BOUTON VALIDER -->
                 </div>
             </div>
 
             <div id="retour">
                 <div class="ch">
-                    <button class="back1">retour</button>
+                    <button class="back1">retour</button> <!-- BOUTON RETOUR -->
                 </div>
             </div>
-        
-        
-        
+
         </div>
 
-
+        <!-- Deuxième div du container -->
         <div id="event">
-            <div><button id="reset" onclick="start();">START</button></div>
-            <div><input type="text" id="event1" style="border: none;" value="" disabled></div>
-            <div class="table">test</div>
+            <div><button id="reset" onclick="start();">START</button></div> <!-- BOUTON START -->
+            <div><input type="text" id="event1" style="border: none;" value="" disabled></div> <!-- BOUTON EVENT -->
+
+            <div class="TBLSCORE">
+                <table> <!-- Tableau des scores -->
+                    <tr id="score1">
+                        <th id="idj1"><input type="text"></th> <!-- JOUEUR 1 -->
+                        <td class="gris2">6</td>
+                        <td class="gris2">4</td>
+                        <td class="gris2">6</td>
+                        <td id="result1">V</td>
+                    </tr>
+                    <tr id="score2">
+                        <th id="idj2"><input type="text"></th> <!-- JOUEUR 2 -->
+                        <td class="gris1">4</td>
+                        <td class="gris1">6</td>
+                        <td class="gris1">3</td>
+                        <td id="result2">P</td>
+                    </tr>
+                </table>
+            </div>
 
 
 
         </div>
 
-
+        <!-- Troisième div du container -->
         <div class="col" id="col2">
-            <div><input type="text" style="border: none;" class="j" id="j2" value=""></div>
-            <div><input type="number" style="border: none;" class="nb" id="nb2" value="" disabled></div>
-            <div></div>
+
+            <div><input type="text" style="border: none;" class="j" id="j2" value=""></div> <!-- JOUEUR 2 -->
+            <div><input type="number" style="border: none;" class="nb" id="nb2" value="" disabled></div> <!-- POINTS ACTUELS -->
 
             <div class="BOUTTONS" id="BOUTTON2">
                 <div class="buttons">
-                    <button class="butt1">+1</button>
-                    <button class="butt2">P</button>
+                    <button class="butt1">+1</button> <!-- BOUTON GAGNÉ -->
+                    <button class="butt2">P</button> <!-- BOUTON PERDU -->
                 </div>
             </div>
 
+            <div id="validation">
+                <div class="ch">
+                    <button class="valid1">validation</button> <!-- BOUTON VALIDER -->
+                </div>
+            </div>
+
+            <div id="retour">
+                <div class="ch">
+                    <button class="back1">retour</button> <!-- BOUTON RETOUR -->
+                </div>
+            </div>
 
         </div>
       
