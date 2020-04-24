@@ -73,7 +73,7 @@ h1 {
 }
 
 .nb{
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 #nb1 {
@@ -274,6 +274,26 @@ h1 {
     text-align: center;
 }
 
+
+#log1 {
+    position: relative;
+    top: -34px;
+    left: 180px;
+    background-color: #22D865;
+    border-radius: 10px;
+    height: 20px;
+    width: 20px;
+}
+
+#log2 {
+    position: relative;
+    top: -34px;
+    left: 180px;
+    background-color: #22D865;
+    border-radius: 10px;
+    height: 20px;
+    width: 20px;
+}
 
 
 
